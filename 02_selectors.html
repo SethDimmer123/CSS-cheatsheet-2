@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* "." is for classes*/
+        .primary-heading {
+            color:blue;
+        }
+
+        /* # is for IDs */
+        #welcome{
+            background-color:#f4f4f4 ;
+        }
+
+        /* Multiple Selectors*/
+        #welcome,#about{
+          border:1px solid #ccc;
+          padding:10px;
+          margin-bottom:5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus corporis non voluptatibus debitis adipisci nam exercitationem! Eaque, dolore ipsa.</p>
+        </div>
+        <div id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed numquam et corporis veritatis quidem accusantium possimus magni molestiae sit.</p>
+        </div>
+</body>
+</html>
+
+<!--If I want to target a class i put a "." instead of a "#"in css reference 3:20 Basic CSS Selectors-->

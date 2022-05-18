@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Fonts</title>
     <style>
-        body{
-            font-family:'Lato', sans-serif;/* get font family from google fonts*/
-            font-size:18px;/* How big Font of words are*/
-            line-height: 1.6em;  
-            /* More space in between each line of words(vertically)*/
-        }
+      body {
+        font-family: Arial, Helvetica, sans-serif; /* get font family from google fonts*/
+        font-size: 18px; /* How big Font of words are*/
+        line-height: 1.6em;
+        /* More space in between each line of words(vertically)*/
+      }
+
+      #welcome p span{
+          font-weight: bold;        /*targets span paragraphs*/
+      }
+
+      #about p span{
+          font-style: italic;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="welcome">
       <h2 class="primary-heading">Welcome</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        delectus corporis non voluptatibus debitis adipisci nam exercitationem!
-        Eaque, dolore ipsa.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span>Reiciendis delectus corporis non </span>voluptatibus debitis
+        adipisci nam exercitationem! Eaque, dolore ipsa.
       </p>
     </div>
     <div id="about">
       <h2>About</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed
-        numquam et corporis veritatis quidem accusantium possimus magni
-        molestiae sit.
+        Lorem ipsum dolor sit amet consectetur adipisicing
+        <span>elit. Enim sed numquam et corporis</span> veritatis quidem
+        accusantium possimus magni molestiae sit.
       </p>
     </div>
-</body>
+  </body>
 </html>
 
 <!--CSS UNITS:RELATIVE-->

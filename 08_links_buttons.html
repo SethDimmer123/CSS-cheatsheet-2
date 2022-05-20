@@ -12,16 +12,21 @@
         }
 
         a:hover{
-            color:coral;   /*changes color when i (hover) over a word*/
+            color:coral;   /*changes color when i (HOVER) over a word*/
             text-decoration: underline;
         }
 
-        a:visited{      /*when i visit the link it stays whatever color i assigned it*/
+        a:visited{      /*when i (VISIT) the link it stays whatever color i assigned it*/
+            color:red;
+        }
+
+        a:active{       /* when i (CLICK) the link it turns the color i assigned it*/
             color:red;
         }
     </style>
 </head>
 <body>
-    <a href="#">Click Here</a>
+    <a class="btn" href="#">My link</a>
+    <button class="btn">My Button</button>
 </body>
 </html>

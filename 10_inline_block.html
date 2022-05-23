@@ -6,12 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline & Block Styling</title>
     <style>
+
         li{
             display:inline; /*Takes away bullet points and list items are now horozontal instead of vertical*/
         }
 
         li a{
             padding-right: 20px; /*Spaces between each list item*/
+        }
+
+        img{
+            display:block;  /*display: block means that the element is displayed as a block, as paragraphs and headers have always been*/
+            margin:0 auto;
+        }
+
+        .box{
+            width:32.8%;
+            display:inline-block;
+            box-sizing:border-box;
+            background:#f4f4f4;
+            padding:20px;
+            margin-bottom:15px;
         }
     </style>
 </head>
@@ -21,10 +36,24 @@
         <li><a href="#">Business</a></li>
         <li><a href="#">Fashion</a></li>
     </ul>
-    <br>
-    <br>
+    
+    <br><br>
 
     <img src="./Assets/leaf.png" alt="My image">
-    <img src="./Assets/leaf.png" alt="My image">
+
+    <br><br>
+
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quas explicabo commodi sit iusto numquam nulla architecto possimus dolorem! Similique!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quas explicabo commodi sit iusto numquam nulla architecto possimus dolorem! Similique!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quas explicabo commodi sit iusto numquam nulla architecto possimus dolorem! Similique!</p>
+    </div>
 </body>
 </html>

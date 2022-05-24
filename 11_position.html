@@ -10,16 +10,28 @@
             width:100px;
             height:100px;
         }
+        .container{
+            position: relative;
+            width:500px;
+            height:500px;
+            background:#333;
+        }
 
         #box-1{
             position:static;/* This is the default of the position property*/
             background: red;
         }
         #box-2{
+            position:absolute;
             background: yellow;
+            top:100px;
+            left:100px;
         }
         #box-3{
             background: green;
+            position:absolute;
+            bottom:100px;
+            right:100px;
         }
         #box-4{
             background: blue;
@@ -31,8 +43,10 @@
 </head>
 <body>
     <div id="box-1" class="box"></div>
-    <div id="box-2" class="box"></div>
-    <div id="box-3" class="box"></div>
+    <div class="container">
+        <div id="box-2" class="box"></div>  <!--Position absolute has to do with a parent so you put it within a div class of container to target instead of targeting the whole page -->
+        <div id="box-3" class="box"></div>
+    </div>
     <div id="box-4" class="box"></div>
     <div id="box-5" class="box"></div>
 </body>

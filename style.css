@@ -16,4 +16,46 @@
 
     #container{
         margin:0 auto;
+        max-width:600px;
+        padding:60px;
+
     }
+
+    .white-form{
+        margin-top: 40px; /*edits space inside of container*/
+    }
+
+    .form-wrap{
+        background-color: #fff;
+    }
+
+    .form-wrap h1,
+    .form-wrap p{
+        text-align: center;
+    }
+
+    .form-wrap .form-group{
+        text-align:center;
+        margin-top: 60px;
+        margin-right:40px;
+        margin-left:40px;
+    }
+
+    .form-wrap .form-group label{
+        display:block;
+        text-align: left;
+        padding-left:20%;
+        margin-bottom:5px;
+    }
+
+    .form-wrap .form-group input{
+        padding-right:10px;
+        padding-left:90px;
+        padding-top:10px
+    }
+
+
+
+
+
+    
